@@ -31,7 +31,8 @@
               <th class="center">Site</th>
               <th class="center">Compiler</th>
               <th class="center">Architecture</th>
-              <th class="center">C++11</th>
+              <th class="center">C++ ver</th>
+              <th class="center">SIMD</th>
               <th class="center">Issues</th>
             </tr>
           </thead>
@@ -39,17 +40,28 @@
           <tbody>
             <tr>
               <td><a href="http://codeforces.com/blog/entry/79">CodeChef</a></td>
-              <td>GCC 4.8.1</td>
-              <td>32-bit</td>
-              <td class="center">&#x2714;</td>
+              <td>GCC 4.9.2</td>
+              <td>Linux 32-bit</td>
+              <td class="center">C++14</td>
+              <td></td>
               <td></td>
             </tr>
 
             <tr>
-              <td><a href="http://codeforces.com/blog/entry/79">Codeforces</a></td>
-              <td>GCC 4.7.2</td>
+              <td><a href="http://codeforces.com/blog/entry/79">Codeforces (GCC)</a></td>
+              <td>GCC 6.2.0</td>
               <td>Windows 32-bit</td>
-              <td class="center">&#x2714;</td>
+              <td class="center">C++14</td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td><a href="http://codeforces.com/blog/entry/79">Codeforces (MSVC)</a></td>
+              <td>VS 2010</td>
+              <td>Windows 32-bit</td>
+              <td class="center">&#x2718;</td>
+              <td>SSE 4.2</td>
               <td></td>
             </tr>
 
@@ -57,15 +69,17 @@
               <td>Croatian Open</td>
               <td>GCC 4.8.2</td>
               <td>Linux 64-bit</td>
-              <td class="center">&#x2714;</td>
-              <td><a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=58800">Bug 58800 - std::nth_element segfaults on valid input</td>
+              <td class="center">C++11</td>
+              <td class="center">?</td>
+              <td><a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=58800">Bug 58800 - std::nth_element segfaults</td>
             </tr>
 
             <tr>
               <td>SPOJ</td>
-              <td>GCC 4.3.2</td>
-              <td></td>
-              <td class="center">&#x2718;</td>
+              <td>GCC 6.3.0</td>
+              <td>Linux 64-bit</td>
+              <td class="center">C++14</td>
+              <td>SSE 2</td>
               <td></td>
             </tr>
 
@@ -73,22 +87,24 @@
               <td>TopCoder</td>
               <td>GCC 4.8.1</td>
               <td>Linux 64-bit</td>
-              <td class="center">&#x2714;</td>
-              <td><a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=58800">Bug 58800 - std::nth_element segfaults on valid input</td>
+              <td class="center">C++11</td>
+              <td class="center">?</td>
+              <td><a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=58800">Bug 58800 - std::nth_element segfaults</td>
             </tr>
 
             <tr>
               <td><a href="http://www.usaco.org/index.php?page=instructions">USACO</a></td>
-              <td>GCC 4.1.2</td>
-              <td>Linux 32-bit</td>
-              <td class="center">&#x2718;</td>
+              <td>GCC 4.8.2</td>
+              <td>Linux ?-bit</td>
+              <td class="center">C++11</td>
+              <td class="center">?</td>
               <td></td>
             </tr>
           </tbody>
 
         </table>
 
-        <p>Last updated on 2014-02-16.</p>
+        <p>Last updated on 2017-06-03.</p>
       </section>
     </div>
 
